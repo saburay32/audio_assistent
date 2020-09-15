@@ -26,6 +26,7 @@ def say(text):
     playsound.playsound(unique_filename)
     print('Assistent: ',text)
 
+
 def handle_message(message):
     if "хай" in message:
         say("И тебе не хворать боярин")
